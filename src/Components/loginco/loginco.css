@@ -46,7 +46,8 @@
     margin: 10px 0;
 }
 
-.log-page .box-log a{
+.log-page .box-log a,
+.log-page .box-log .link{
     font-size: 16px; 
     color:#222;
     text-decoration: underline;

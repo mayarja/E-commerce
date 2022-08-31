@@ -4,6 +4,7 @@ import {
   AiOutlineShoppingCart,
   AiOutlineHeart,
 } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 function Singleproduct({ e }) {
   return (
@@ -15,7 +16,9 @@ function Singleproduct({ e }) {
         <div className="circle"></div>
         <div className="icons">
           <AiOutlineShoppingCart className="icon-single" />
-          <AiOutlineSearch className="icon-single" />
+          <Link to="/E-commerce/PageSingleProduct" className="link">
+            <AiOutlineSearch className="icon-single" />
+          </Link>
           <AiOutlineHeart className="icon-single" />
         </div>
       </div>

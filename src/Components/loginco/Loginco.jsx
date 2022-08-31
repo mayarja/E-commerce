@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./loginco.css";
 
 function Loginco() {
@@ -11,7 +12,9 @@ function Loginco() {
         </div>
         <button className="btn btn-light "> LOGIN</button>
         <a href="./">DO NOT YOU REMMPER THE PASSWORD</a>
-        <a href="./">CREATE A NEW ACCOUNT</a>
+        <Link to="/E-commerce/RegisterPage" className="link">
+          CREATE A NEW ACCOUNT
+        </Link>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import "./categories.css";
 import { categories } from "../../data.js";
+import { Link } from "react-router-dom";
 function Categories() {
   return (
     <div className="catego">
@@ -11,7 +12,11 @@ function Categories() {
                 <img src={e.img} alt="..." />
                 <div className="title-cat">
                   <h1>{e.title}</h1>
-                  <button>SHOP NOW</button>
+                  <button>
+                    <Link to="/E-commerce/ProductList" className="link">
+                      SHOP NOW
+                    </Link>
+                  </button>
                 </div>
               </div>
             </div>

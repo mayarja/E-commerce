@@ -28,10 +28,16 @@
     color: #fff;
 }
 
-.box-cat .title-cat button{
+.box-cat .title-cat button {
     border: none;
     padding: 10px;
     background-color: #fff;
     color: gray;
     font-weight: 600;
+}
+
+.box-cat .title-cat button .link{
+    color: gray;
+    font-weight: 600;
+    text-decoration: none;
 }
