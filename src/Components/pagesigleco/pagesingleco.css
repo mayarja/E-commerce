@@ -1,0 +1,114 @@
+.page-single{
+    padding-top: 40px;
+}
+
+.page-single .img-box{
+    width: 100%;
+    height: 100%;
+}
+
+.page-single .img-box img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+
+.page-single .title h1{
+  font-weight: 200;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.page-single .title p{
+    font-size: 18px;
+    color: #444;
+    width: 80%;
+}
+
+.page-single .title span{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.page-single .color-size{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 20px 0;
+}
+
+.color-size .title-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.title-color .color-div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.color-size .title-color span,
+.color-size .title-size span
+{
+ font-size: 28px;
+ color: #555;
+}
+
+.color-size .title-size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.color-size .title-size select{
+    padding: 5px;
+}
+
+.page-single .box-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 20px 0;
+}
+
+@media screen and (max-width : 790px) {
+    .page-single .box-btn{
+        width: 100%;
+    }
+    .page-single .img-box img{
+        height: 40vh;
+    }
+}
+
+.page-single .box-btn .spans{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.page-single .box-btn .spans .ssss{
+    border: 1px solid teal;
+    padding:  15px;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-single .box-btn button{
+    border:2px solid teal;
+    padding: 10px;
+    font-size: 20px;
+}
+.page-single .box-btn button:hover{
+    background-color: #e3ddca !important;
+}

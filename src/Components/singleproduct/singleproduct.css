@@ -1,0 +1,70 @@
+.single-pro{
+    background-color: #f5fbfd;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+
+}
+.single-pro:hover .icons{
+    opacity: 1;
+}
+
+.single-pro .img-d{
+    width: 100%;
+    height: 50vh;
+    z-index:  2;
+}
+
+.single-pro .img-d img{
+    width: 100%;
+    height:  100%;
+    z-index:  2;
+}
+
+.single-pro .circle{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+}
+
+.single-pro .icons{
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.single-pro .icons .icon-single{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    display: flex;justify-content: center; align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+   
+}
+
+.single-pro .icons .icon-single:hover{
+    background-color: #e9f5f5;
+    transform: scale(1.1);
+}

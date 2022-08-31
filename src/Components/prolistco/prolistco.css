@@ -1,0 +1,37 @@
+.productlist {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.productlist h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.list-filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.list-filter span{
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.filter-s-c,.filter-new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.filter-s-c select,
+.filter-new select{
+    padding: 10px;
+}
